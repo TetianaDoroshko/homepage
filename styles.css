@@ -91,7 +91,7 @@ body {
 .contact-info__block {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .contact-info__block--center {
@@ -210,7 +210,7 @@ body {
   color: var(--durability-text-color);
   text-align: left;
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .experiences__company-project-name {
@@ -236,6 +236,10 @@ body {
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
+}
+
+.additional-info__education-university:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .additional-info__education-university-durability {
