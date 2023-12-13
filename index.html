@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Résumé</title>
+    <title>Tetiana Doroshko CV</title>
   </head>
+  <script src="./index.js"></script>
   <body>
     <main>
       <div class="resume">
@@ -130,16 +131,120 @@
             <div class="skills">
               <h3 class="skills__header">Skills</h3>
               <p class="skills__text">
-                HTML, CSS, Javascript, React, Node.js, MongoDB, SQL, GIT
+                Javascript, React, Node.js, MongoDB, SQL, GIT, HTML, CSS
               </p>
             </div>
           </div>
         </div>
         <div class="container">
           <div class="resume__block">
+            <div class="additional-info fh">
+              <div class="education">
+                <h3 class="education-header">Education</h3>
+                <div class="education-university">
+                  <div class="education-university__content">
+                    <span class="education-university-durability">2023</span>
+                    <h3 class="education-university-speciality">
+                      Full stack developer
+                    </h3>
+                    <p class="education-university-name">
+                      Binary Studio Academy
+                    </p>
+                  </div>
+                  <div class="education-university__image-container bsa">
+                    <img
+                      class="education-university__image"
+                      src="./assets//bsa-certify.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="modal">
+                  <img
+                    class="modal-image"
+                    src="./assets/bsa-certify.jpg"
+                    alt="BSA sertify"
+                  />
+                </div>
+                <div class="education-university">
+                  <div class="education-university__content">
+                    <span class="education-university-durability"
+                      >2021-2022</span
+                    >
+                    <h3 class="education-university-speciality">
+                      Full stack developer
+                    </h3>
+                    <p class="education-university-name">IT School GoIT</p>
+                  </div>
+                  <div class="education-university__image-container">
+                    <img
+                      class="education-university__image"
+                      src="./assets/goit-certify.jpg"
+                      alt="GoIt certify"
+                    />
+                  </div>
+                </div>
+                <div class="modal">
+                  <img
+                    class="modal-image"
+                    src="./assets/goIt-certify.jpg"
+                    alt="GoIT sertify"
+                  />
+                </div>
+                <div class="education-university">
+                  <div class="education-university__content">
+                    <span class="education-university-durability"
+                      >2006-2010</span
+                    >
+                    <h3 class="education-university-speciality">
+                      Magister of Economy of enterprise
+                    </h3>
+                    <p class="education-university-name">
+                      National Metallurgical Academy of Ukraine
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="languages">
+                <h3 class="languages-header">Languages</h3>
+                <p class="languages-item">Ukrainian (native)</p>
+                <p class="languages-item">Russian (native)</p>
+                <p class="languages-item">English (intermediate)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume__block">
             <div class="main-info fh">
               <div class="experiences">
                 <h3 class="experiences__header">Experience</h3>
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability"
+                      >2023</span
+                    >
+                    <h3 class="experiences__company-header-name">
+                      Binary Studio Academy
+                    </h3>
+                  </div>
+
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role"
+                      >Student</span
+                    >
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>
+                        Development of the team project as part of a training
+                        course in conditions close to real commercial work.
+                      </li>
+                      <li>Full Stack Development</li>
+                    </ul>
+                  </div>
+                </div>
+                <h3 class="experiences__header">
+                  Experience in another fields
+                </h3>
                 <div class="experiences__company">
                   <div class="experiences__company-header">
                     <span class="experiences__company-header-durability"
@@ -190,54 +295,22 @@
                   </div>
                 </div>
               </div>
-
-              <div class="additional-info fv">
-                <div class="additional-info fv">
-                  <div class="additional-info__education">
-                    <h3 class="additional-info__education-header">Education</h3>
-                    <div class="additional-info__education-university">
-                      <span
-                        class="additional-info__education-university-durability"
-                        >2021-2022</span
-                      >
-                      <h3
-                        class="additional-info__education-university-speciality"
-                      >
-                        Full stack developer
-                      </h3>
-                      <p class="additional-info__education-university-name">
-                        IT School GoIT
-                      </p>
-                    </div>
-                    <div class="additional-info__education-university">
-                      <span
-                        class="additional-info__education-university-durability"
-                        >2006-2010</span
-                      >
-                      <h3
-                        class="additional-info__education-university-speciality"
-                      >
-                        Magister of Economy of enterprise
-                      </h3>
-                      <p class="additional-info__education-university-name">
-                        National Metallurgical Academy of Ukraine
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="additional-info__languages">
-                    <h3 class="additional-info__languages-header">Languages</h3>
-                    <p class="additional-info__languages-item">
-                      Ukrainian (native)
-                    </p>
-                    <p class="additional-info__languages-item">
-                      Russian (native)
-                    </p>
-                    <p class="additional-info__languages-item">
-                      English (intermediate)
-                    </p>
-                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="projects">
+              <h3 class="projects__header">Projects</h3>
+              <div class="projects__container">
+                <div class="projects__name">
+                  <a class="projects__title" href="https://github.com/TetianaDoroshko/Movie-App">Movie App</a>
+                  <a class="projects__deploy" href="https://movie-app-rouge-sigma.vercel.app/">Deploy</a>
                 </div>
+                <p class="projects__description">An application for reviewing new movies.</p>
+                <p class="projects__tech"></p>
+                  Type Script, pulic API
+                </p>
               </div>
             </div>
           </div>
